@@ -1,7 +1,11 @@
 {
   "name": "sheetabase",
   "version": "1.0.5",
-  "description": "",
+  "description": "Sheetabase is a lightweight package that transforms Google Sheets into a powerful database with easy-to-use ORM-like querying",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ibnuard/sheetabase"
+  },
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
