@@ -1,0 +1,27 @@
+{
+  "name": "sheetabase",
+  "version": "1.0.5",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "google sheet",
+    "database",
+    "orm"
+  ],
+  "author": "Ibnuard",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "tsup": "^8.2.0",
+    "typescript": "^5.5.3"
+  }
+}
