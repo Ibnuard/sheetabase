@@ -38,7 +38,7 @@ jobs:
           name: Release ${{ github.ref }}
           body: |
             Changes in this release:
-            - Testing github action auto publish.
+            - Testing github action auto publish v1.
           draft: false
           prerelease: false
           token: ${{ secrets.GITHUB_TOKEN }}
