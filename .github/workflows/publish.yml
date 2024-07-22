@@ -18,7 +18,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: "14"
+          node-version: "18"
 
       - name: Install dependencies
         run: npm install
@@ -38,7 +38,7 @@ jobs:
           name: Release ${{ github.ref }}
           body: |
             Changes in this release:
-            - Add a detailed description of changes here.
+            - Testing github action auto publish.
           draft: false
           prerelease: false
           token: ${{ secrets.GITHUB_TOKEN }}
