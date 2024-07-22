@@ -1,3 +1,5 @@
+![Logo](https://github.com/user-attachments/assets/61cdb050-3923-44f2-af56-e05d375410ef)
+
 # Sheetabase
 
 Sheetabase is a lightweight package that transforms Google Sheets into a powerful database with easy-to-use ORM-like querying. It offers promise-based functions for creating, reading, updating, and deleting data, making it simple to integrate and use in your projects.
