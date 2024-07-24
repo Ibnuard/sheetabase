@@ -37,6 +37,7 @@ const setup = setupSheetabase({
       name: "TestDatabase", // Table Name / Sheet Name
       columns: [["id", "name", "status"], { pk: "id", autoIncrement: true }],
     },
+    // you can define another model here
   ],
 });
 ```
